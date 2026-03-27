@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Magisterium | The Catholic Catechism Explained</title>
+<meta name="description" content="The entire Catholic Catechism explained. 3 posts a day. 365 days. 1,095 videos. Free."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#f0bf5c",
+          "tertiary": "#d0c7a3",
+          "on-tertiary-fixed": "#201c05",
+          "surface-container-highest": "#373340",
+          "secondary-container": "#b28b23",
+          "inverse-primary": "#7b5900",
+          "tertiary-fixed": "#ece3bd",
+          "on-secondary": "#3e2e00",
+          "outline-variant": "#4e4637",
+          "error": "#ffb4ab",
+          "surface-container-high": "#2c2835",
+          "surface-container": "#211e2a",
+          "surface-container-low": "#1d1a26",
+          "on-primary": "#412d00",
+          "on-secondary-fixed": "#251a00",
+          "surface-bright": "#3b3745",
+          "surface": "#15121e",
+          "on-secondary-container": "#362800",
+          "tertiary-fixed-dim": "#d0c7a3",
+          "on-primary-fixed": "#261900",
+          "primary-fixed-dim": "#f0bf5c",
+          "outline": "#9b8f7d",
+          "background": "#15121e",
+          "tertiary-container": "#aaa280",
+          "on-primary-fixed-variant": "#5d4200",
+          "secondary-fixed-dim": "#ecc155",
+          "on-secondary-fixed-variant": "#5a4300",
+          "surface-container-lowest": "#0f0c18",
+          "on-surface": "#e7dff1",
+          "error-container": "#93000a",
+          "primary-container": "#c89b3c",
+          "surface-dim": "#15121e",
+          "on-surface-variant": "#d2c5b1",
+          "inverse-on-surface": "#322e3c",
+          "on-tertiary-container": "#3e381e",
+          "surface-tint": "#f0bf5c",
+          "on-primary-container": "#4b3500",
+          "inverse-surface": "#e7dff1",
+          "secondary": "#ecc155",
+          "on-background": "#e7dff1",
+          "on-error": "#690005",
+          "primary-fixed": "#ffdea4",
+          "secondary-fixed": "#ffdf98",
+          "on-tertiary": "#353117",
+          "on-error-container": "#ffdad6",
+          "surface-variant": "#373340",
+          "on-tertiary-fixed-variant": "#4d472b"
+        },
+        fontFamily: {
+          "headline": ["Noto Serif"],
+          "body": ["Inter"],
+          "label": ["Inter"]
+        },
+        borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+      },
+    },
+  }
+</script>
+<style>
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+}
+.grain-overlay {
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAYWrckz1Rca3_s9FexWpOHUB81oV94-a9ce4R9SZkQrsvdpfQFoUEz3bh3-7waiF7LUrlhi9KuMUcyJTnp2WTWVMmjj6yzVe6csjyXVyl2qYMr724k8NvdIrdFtjXWaYCRdOoQ9qVJI-5dCs7kWfDHe_qLuxK6tpEUE5nZavbmWPt06UWTVS_OwyP95UvqaM6Sd0mcGmm0Zs8XmEcb6nuvxXW6oH4LJKwKvFvZWZlq1EPS9rcASBDS11i9PlLj2TzfcddnOct-hYg);
+  opacity: 0.05;
+  pointer-events: none
+}
+.gold-glow {
+  background: radial-gradient(circle at center, rgba(240, 191, 92, 0.15) 0%, rgba(21, 18, 30, 0) 70%)
+}
+.editorial-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%
+}
+.editorial-divider::before, .editorial-divider::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background: linear-gradient(to right, transparent, rgba(200, 155, 60, 0.3), transparent)
+}
+::-webkit-scrollbar {
+  width: 6px
+}
+::-webkit-scrollbar-track {
+  background: #0f0c18
+}
+::-webkit-scrollbar-thumb {
+  background: #c89b3c
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden
+}
+/* Video skeleton pulse */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4 }
+  50% { opacity: 0.8 }
+}
+.skeleton { animation: skeleton-pulse 1.5s ease-in-out infinite }
+</style>
+<!-- Config must load before feed.js -->
+<script src="config.js"></script>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<div class="fixed inset-0 grain-overlay z-[100] pointer-events-none"></div>
+
+<!-- Video Lightbox Overlay -->
+<div id="video-overlay" class="fixed inset-0 bg-black/90 z-[200] hidden items-center justify-center"
+     onclick="closeVideoOverlay()">
+  <div class="relative w-[315px] h-[560px]" onclick="event.stopPropagation()">
+    <iframe id="video-iframe" width="315" height="560" src=""
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen></iframe>
+  </div>
+  <button class="absolute top-6 right-6 text-white/50 hover:text-white text-4xl leading-none transition-colors"
+          onclick="closeVideoOverlay()" aria-label="Close video">✕</button>
+</div>
+
+<!-- Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 rounded-none bg-[#15121e] bg-opacity-95 backdrop-blur-xl border-b border-[#c89b3c]/10 shadow-2xl shadow-black/50">
+  <div class="flex justify-between items-center px-6 py-4 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-3 text-2xl font-serif text-[#f0bf5c] uppercase tracking-widest font-headline">
+      <img src="assets/primary-icon-black-background.png" alt="The Magisterium seal" class="w-10 h-10 object-contain flex-shrink-0">
+      The Magisterium
+    </div>
+    <div class="hidden md:flex items-center space-gap-8 gap-8">
+      <a class="text-[#f0bf5c] font-bold border-b border-[#f0bf5c] pb-1 font-serif italic tracking-tight ease-in-out cursor-pointer" href="#">Home</a>
+      <a class="text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors duration-500 font-serif italic tracking-tight ease-in-out cursor-pointer" href="#pillars">Topics</a>
+      <a class="text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors duration-500 font-serif italic tracking-tight ease-in-out cursor-pointer" href="#about">About</a>
+      <a class="text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors duration-500 font-serif italic tracking-tight ease-in-out cursor-pointer" href="#follow">Follow</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span onclick="toggleMobileMenu()" class="material-symbols-outlined text-[#f0bf5c] cursor-pointer hover:bg-[#c89b3c]/5 transition-all duration-300 p-2 md:hidden">menu</span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu Panel -->
+<div id="mobile-menu" class="hidden fixed inset-x-0 top-[73px] z-40 bg-[#15121e]/98 backdrop-blur-xl border-b border-[#c89b3c]/10 md:hidden">
+  <div class="px-8 py-10 flex flex-col gap-7 max-w-screen-2xl mx-auto">
+    <a href="#" onclick="closeMobileMenu()" class="text-2xl font-headline italic text-[#f0bf5c] border-b border-[#f0bf5c]/20 pb-4">Home</a>
+    <a href="#pillars" onclick="closeMobileMenu()" class="text-2xl font-headline italic text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors border-b border-white/5 pb-4">Topics</a>
+    <a href="#about" onclick="closeMobileMenu()" class="text-2xl font-headline italic text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors border-b border-white/5 pb-4">About</a>
+    <a href="#follow" onclick="closeMobileMenu()" class="text-2xl font-headline italic text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors border-b border-white/5 pb-4">Follow</a>
+    <a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener" onclick="closeMobileMenu()" class="text-2xl font-headline italic text-[#d0c7a3] hover:text-[#f0bf5c] transition-colors border-b border-white/5 pb-4 flex items-center gap-3">
+      Read the Catechism
+      <svg class="w-4 h-4 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    </a>
+    <div class="pt-2 flex gap-7 items-center">
+      <a href="https://www.youtube.com/@TheMagisterium" target="_blank" rel="noopener" aria-label="YouTube" class="text-[#c89b3c] hover:text-primary transition-colors">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/magisteriumccc/" target="_blank" rel="noopener" aria-label="Instagram" class="text-[#c89b3c] hover:text-primary transition-colors">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="https://www.tiktok.com/@themagisterium" target="_blank" rel="noopener" aria-label="TikTok" class="text-[#c89b3c] hover:text-primary transition-colors">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<main class="relative">
+  <!-- Hero Section -->
+  <section class="relative min-h-screen flex flex-col items-center justify-center pt-20 px-6 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img alt="The Magisterium — Cathedral with seal" class="w-full h-full object-cover object-center" src="assets/twitter-x-banner.png"/>
+      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="absolute inset-0 gold-glow opacity-60"></div>
+    </div>
+    <div class="relative z-10 text-center max-w-5xl mx-auto space-y-8">
+      <div class="uppercase tracking-[0.4em] text-primary text-xs font-bold mb-4 opacity-80">Ancient Wisdom • Modern Medium</div>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface tracking-tight leading-none">
+        The Entire <span class="italic text-primary">Catholic Catechism.</span> Explained.
+      </h1>
+      <p class="text-xl md:text-2xl text-tertiary font-serif max-w-2xl mx-auto italic opacity-90">
+        3 posts a day. 365 days. 1,095 videos. Free.
+      </p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6 pt-6">
+        <!-- Follow dropdown -->
+        <div class="relative group w-full md:w-auto" id="follow-dropdown">
+          <button onclick="toggleFollowMenu(event)"
+                  class="flex items-center justify-center gap-3 px-10 py-4 bg-primary text-on-primary font-bold tracking-widest uppercase text-sm hover:shadow-[0_0_20px_rgba(240,191,92,0.3)] transition-all duration-500 w-full md:w-auto">
+            Follow Us
+            <svg class="w-3 h-3 transition-transform duration-300" id="follow-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M6 9l6 6 6-6"/>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div id="follow-menu"
+               class="hidden absolute left-0 md:left-1/2 md:-translate-x-1/2 top-full mt-1 w-full md:w-56 bg-[#1d1a26] border border-[#c89b3c]/20 shadow-2xl shadow-black/60 z-50">
+            <a href="https://www.youtube.com/@TheMagisterium" target="_blank" rel="noopener"
+               class="flex items-center gap-3 px-5 py-4 text-sm font-bold uppercase tracking-widest text-[#d0c7a3] hover:text-[#f0bf5c] hover:bg-[#f0bf5c]/5 transition-all duration-300 border-b border-white/5">
+              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              YouTube
+            </a>
+            <a href="https://www.instagram.com/magisteriumccc/" target="_blank" rel="noopener"
+               class="flex items-center gap-3 px-5 py-4 text-sm font-bold uppercase tracking-widest text-[#d0c7a3] hover:text-[#f0bf5c] hover:bg-[#f0bf5c]/5 transition-all duration-300 border-b border-white/5">
+              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </a>
+            <a href="https://www.tiktok.com/@themagisterium" target="_blank" rel="noopener"
+               class="flex items-center gap-3 px-5 py-4 text-sm font-bold uppercase tracking-widest text-[#d0c7a3] hover:text-[#f0bf5c] hover:bg-[#f0bf5c]/5 transition-all duration-300">
+              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+              </svg>
+              TikTok
+            </a>
+          </div>
+        </div>
+        <a href="#pillars"
+           class="px-10 py-4 border border-outline/30 text-on-surface font-bold tracking-widest uppercase text-sm hover:border-primary hover:text-primary transition-all duration-500 w-full md:w-auto text-center">
+          Browse All Topics
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pt-20 max-w-4xl mx-auto">
+        <div class="space-y-1">
+          <div class="text-3xl font-headline text-primary">1,095</div>
+          <div class="text-[10px] uppercase tracking-widest text-tertiary/60">Daily Posts</div>
+        </div>
+        <div class="space-y-1">
+          <div class="text-3xl font-headline text-primary">365</div>
+          <div class="text-[10px] uppercase tracking-widest text-tertiary/60">Days Journey</div>
+        </div>
+        <div class="space-y-1">
+          <div class="text-3xl font-headline text-primary">2,865</div>
+          <div class="text-[10px] uppercase tracking-widest text-tertiary/60">Paragraphs Covered</div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce opacity-40">
+      <span class="text-[10px] uppercase tracking-widest font-bold">Scroll</span>
+      <span class="material-symbols-outlined text-primary">expand_more</span>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="editorial-divider max-w-screen-xl mx-auto my-12 opacity-50">
+    <span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">health_cross</span>
+  </div>
+
+  <!-- Latest Posts (YouTube Feed) -->
+  <section id="latest" class="py-24 bg-surface-container-lowest">
+    <div class="px-6 max-w-screen-2xl mx-auto mb-12 flex justify-between items-end">
+      <div>
+        <h2 class="text-4xl font-headline italic">Latest Posts</h2>
+        <p class="text-tertiary/50 uppercase tracking-[0.2em] text-[10px] mt-2">From our YouTube channel</p>
+      </div>
+      <div class="hidden md:flex gap-4">
+        <button onclick="scrollFeed(-1)" class="p-2 border border-outline/20 hover:border-primary transition-colors" aria-label="Scroll left">
+          <span class="material-symbols-outlined">chevron_left</span>
+        </button>
+        <button onclick="scrollFeed(1)" class="p-2 border border-outline/20 hover:border-primary transition-colors" aria-label="Scroll right">
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+      </div>
+    </div>
+    <!-- Feed container: populated by feed.js; static fallback cards shown until feed loads -->
+    <div id="video-feed" class="flex gap-6 overflow-x-auto px-6 no-scrollbar pb-12 snap-x">
+      <!-- Static fallback cards (shown if YouTube channel ID not set or feed unavailable) -->
+      <div class="flex-none w-[280px] aspect-[9/16] bg-surface-container-high relative group snap-start cursor-pointer border border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"></div>
+        <img class="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Dark aesthetic interior of a gothic cathedral with light beams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjK1UglLU9qrtcr90Rko8Qg8uOTdS4fv_eIzuc4W6xAUbjuK6tHqaUFwSfQ52KFP3p0TD8CcYH9ZYfrB-h5MSKMRuHzdEyW-a9cWyWjZSvCi_JVtJ9LPzmoUKxGLGZbun2W8k6JWjRJlGIx3Gg8nMWlfYVvyZxwU0Ro2ILs4KRzY58DRtdb7EL3ynHW8kLVBXRFUEC1NrIZWUSCR4Iz7mnx7PRO-s5uVK1kiaW1bwktrSElDGBYlLmijmMTMz7nNGV5fW05rqSFmM"/>
+        <div class="absolute bottom-0 left-0 p-6 z-20 w-full">
+          <div class="text-[10px] font-bold text-primary tracking-widest uppercase mb-2">The Creed • Para. 1</div>
+          <h4 class="text-xl font-headline leading-tight">Why did God create you?</h4>
+          <div class="h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500 mt-4"></div>
+        </div>
+      </div>
+      <div class="flex-none w-[280px] aspect-[9/16] bg-surface-container-high relative group snap-start cursor-pointer border border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"></div>
+        <img class="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Ancient religious manuscript with gold leaf details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMLOoR443Pcg_Iya8nrMYBd_oRROPTAqMoLY7wqZ5TjqhVCUz-1NI1CaNocZ6T0OB2q8z7wMOsMbK-WLDY3hiCueir1xEeceIHIVtpdkp36Lfii6Ah4mFwF61V-moNqpOmOoECBPp77r4y3AcHIvIbQOitGPaAodarClH39YE6zhvVW7ySFYIjZ2183m5ZO0pMSuZLjGWVmU6uhjaHlnAkKq0ynhBU1T9yF7jDIYTCT4T4dS7ybpSVCIePuYGY2XO9BTg6jW8eCq8"/>
+        <div class="absolute bottom-0 left-0 p-6 z-20 w-full">
+          <div class="text-[10px] font-bold text-primary tracking-widest uppercase mb-2">Sacraments • Para. 1213</div>
+          <h4 class="text-xl font-headline leading-tight">The Gateway to Life</h4>
+          <div class="h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500 mt-4"></div>
+        </div>
+      </div>
+      <div class="flex-none w-[280px] aspect-[9/16] bg-surface-container-high relative group snap-start cursor-pointer border border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"></div>
+        <img class="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Stone statues on a cathedral roof against a dark sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9-W26cRqytKACLBiLmZZjtlnKZfifN2t8er5alHMzWB9U0MEziKvTQpgqzon7ANbAODGKxYTfQlFKXcaHXQSp1rbW8NAgbNrQ49Q3dwX8UIcrn9M0mqvVAzHGqGJU673ri71POMGMgaHshtllje9OyNWgq1HncxBQGwYZENoWFffGZGVA4fS8AMtn-BlshNyMr0Tcp1uWtp9jgQH_xVMTseXoWKm2ECOn7SrWmjr9Avgfb3uE7ja1xYETw-NRynzuM_tUna-91bw"/>
+        <div class="absolute bottom-0 left-0 p-6 z-20 w-full">
+          <div class="text-[10px] font-bold text-primary tracking-widest uppercase mb-2">Moral Life • Para. 1700</div>
+          <h4 class="text-xl font-headline leading-tight">Dignity of the Person</h4>
+          <div class="h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500 mt-4"></div>
+        </div>
+      </div>
+      <div class="flex-none w-[280px] aspect-[9/16] bg-surface-container-high relative group snap-start cursor-pointer border border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"></div>
+        <img class="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Atmospheric candle light in a dark sacred space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwG4n8PxP0gdncjE201TPc09HKgqUjHHHwQUFxnOUiZ_sLgh-tNETWhZFvnzHVrOO1ZMOP-Yl5avvbCmEgb89KnUe4s_z9GHejaMCc_AjF_Mzi90sf9-2TelNA1aKvLQvRvLAW5DcZ7WSv8FYSxYq4JlDj6iQ7QDzSzyy8KblLO73R-oKqQHKrktDe2xtkRML1aHGwtZV2Ch_dVMNcHmam8E-lVs36Zv53JBQUq9ZEA9IBdHccgVukK7_PQGS4zXMlwjEwbbyfaZ0"/>
+        <div class="absolute bottom-0 left-0 p-6 z-20 w-full">
+          <div class="text-[10px] font-bold text-primary tracking-widest uppercase mb-2">Prayer • Para. 2558</div>
+          <h4 class="text-xl font-headline leading-tight">What is Prayer?</h4>
+          <div class="h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500 mt-4"></div>
+        </div>
+      </div>
+      <div class="flex-none w-[280px] aspect-[9/16] bg-surface-container-high relative group snap-start cursor-pointer border border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"></div>
+        <img class="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" alt="Vatican archive library shelves with old books" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB69ecOP63DEsj9Djnl8zM1DMNGzdoIHlWRYe9DK_tCp_MSppR0BKHticIOzixF60msO17Z5rsA0Xl05CDgfYyue_Y902Fqla41XHZBvQ707BIw5q2BU-6jbBy1NmRMdgHd8UtSSfxy3jbuF__DxaDW1KbrmdoHOsbpgvPSZgSLHHgcRXjnSUmOQh3jzyn8P4_jx8b-N6e7tECrqpKzmSqKUZ0f8A_v16Xd2jlocU8qk5rDrrZVQ5E37OiwWopgtThXoJlimSkV8ng"/>
+        <div class="absolute bottom-0 left-0 p-6 z-20 w-full">
+          <div class="text-[10px] font-bold text-primary tracking-widest uppercase mb-2">Church History • Ep. 14</div>
+          <h4 class="text-xl font-headline leading-tight">The Council of Nicaea</h4>
+          <div class="h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500 mt-4"></div>
+        </div>
+      </div>
+    </div>
+    <!-- View on YouTube link -->
+    <div class="px-6 max-w-screen-2xl mx-auto mt-4 text-right">
+      <a href="https://www.youtube.com/@TheMagisterium" target="_blank" rel="noopener"
+         class="text-xs text-primary/60 hover:text-primary uppercase tracking-widest transition-colors">
+        View all on YouTube →
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Divider -->
+  <div class="editorial-divider max-w-screen-xl mx-auto my-12 opacity-50">
+    <span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">health_cross</span>
+  </div>
+
+  <!-- Content Grid (10 Series) -->
+  <section id="pillars" class="py-24 px-6 max-w-screen-2xl mx-auto">
+    <div class="mb-16 text-center">
+      <h2 class="text-4xl md:text-5xl font-headline italic mb-4">What We Cover</h2>
+      <p class="text-tertiary/70 uppercase tracking-widest text-xs">10 Series — 1,095 Videos</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/apostolic-faith-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">play_circle</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">PROLOGUE</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">The Prologue</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">An introduction to the Catechism — what it is, why it matters, and how to use it.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">9 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/creed-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">health_cross</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">PART ONE</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">The Creed</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">What we believe. A deep dive into the profession of faith from creation to eternal life.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">159 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/sacraments-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">wine_bar</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">PART TWO</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">The Sacraments</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">How we worship. The seven channels of divine grace, liturgy, and sacramental life.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">88 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/moral-life-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">balance</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">PART THREE</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">The Moral Life</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">How we live. The life in Christ, the commandments, and the pursuit of virtue.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">117 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/prauer-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">prayer_times</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">PART FOUR</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Christian Prayer</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">How we pray. The mystery of prayer, the Our Father, and the interior life of the soul.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">49 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/marry-saints-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">volunteer_activism</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">SAINTS</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Lives of the Saints</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">Early Church, Medieval, Reformation, and Modern saints — 272 lives across every age of the Church.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">272 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/scriptiure-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">menu_book</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">SCRIPTURE</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Sacred Scripture</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">Old and New Testament foundations of the Catholic faith and their doctrinal significance.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">12 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/holy-spirit-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">auto_stories</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">THEOLOGY</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Systematic Theology</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">The philosophical and doctrinal foundations underlying the Catholic intellectual tradition.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">72 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/thechurch-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">account_balance</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">HISTORY</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Church History</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">Councils, heresies, schisms, and triumphs — the full story of the Church from Pentecost to today.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">170 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t border-transparent hover:border-primary/20 overflow-hidden" style="background-image: url(assets/apostolic-faith-topic.png); background-size: cover; background-position: center top;">
+        <div class="absolute inset-0 bg-black/65 pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex justify-between items-start mb-6">
+            <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 0;">lightbulb</span>
+            <span class="text-[10px] font-bold bg-primary/10 text-primary px-2 py-1 tracking-tighter">APPLICATION</span>
+          </div>
+          <h3 class="text-xl font-headline mb-3 group-hover:text-primary transition-colors">Faith in Practice</h3>
+          <p class="text-xs text-tertiary/60 leading-relaxed font-light mb-6">Apologetics, modern life, mysticism, and practical guidance for living the faith today.</p>
+          <div class="flex items-center gap-2 text-primary">
+            <span class="text-xs font-bold uppercase tracking-widest">109 Videos</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-32 px-6 max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+    <div class="relative aspect-square bg-surface-container-low flex items-center justify-center overflow-hidden border border-primary/10"
+         style="background-image: url(assets/cruxifix-banner.png); background-size: cover; background-position: left center;">
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="text-center relative z-10">
+          <p class="text-xs uppercase tracking-widest leading-loose text-white/80">Authentic. Faithful. Authoritative.</p>
+        </div>
+      </div>
+    </div>
+    <div class="space-y-8">
+      <h2 class="text-5xl font-headline italic">Why The Magisterium?</h2>
+      <div class="space-y-6 text-lg text-tertiary/80 leading-relaxed font-light">
+        <p>In an age of digital noise, the profound depth of the Catholic faith is often lost in 15-second soundbites. The Magisterium was born to reclaim that space.</p>
+        <p>We believe that truth is not just meant to be read, but to be encountered. By breaking down the Catechism into daily, cinematic insights, we offer a path to understanding that fits into the rhythm of modern life without sacrificing the gravity of the message.</p>
+        <p class="text-sm font-serif italic border-l-2 border-primary pl-6 py-2">"The Catechism of the Catholic Church is the 'sure norm for teaching the faith' and an 'authentic reference text' for ecclesial communion." — Pope St. John Paul II</p>
+      </div>
+      <div class="pt-8 flex items-center gap-4">
+        <div class="h-px bg-primary/30 w-12"></div>
+        <a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener" class="text-[10px] uppercase tracking-[0.3em] font-bold text-primary hover:text-primary/70 transition-colors">Based on the Catechism (CCC) ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section id="follow" class="py-32 bg-surface text-center relative overflow-hidden">
+    <div class="absolute inset-0 gold-glow opacity-30"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl md:text-7xl font-headline italic mb-8">Follow Along. It's Free.</h2>
+      <p class="text-xl text-tertiary mb-12 uppercase tracking-widest">@themagisterium</p>
+      <!-- Three platform buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/@TheMagisterium" target="_blank" rel="noopener"
+           class="group flex items-center gap-3 px-8 py-4 bg-primary text-on-primary font-bold tracking-widest uppercase text-sm hover:shadow-[0_0_30px_rgba(240,191,92,0.35)] transition-all duration-500 w-full sm:w-auto justify-center">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          YouTube
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/magisteriumccc/" target="_blank" rel="noopener"
+           class="group flex items-center gap-3 px-8 py-4 border border-primary/40 text-primary font-bold tracking-widest uppercase text-sm hover:bg-primary/10 hover:border-primary hover:shadow-[0_0_20px_rgba(240,191,92,0.15)] transition-all duration-500 w-full sm:w-auto justify-center">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          Instagram
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@themagisterium" target="_blank" rel="noopener"
+           class="group flex items-center gap-3 px-8 py-4 border border-primary/40 text-primary font-bold tracking-widest uppercase text-sm hover:bg-primary/10 hover:border-primary hover:shadow-[0_0_20px_rgba(240,191,92,0.15)] transition-all duration-500 w-full sm:w-auto justify-center">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+          </svg>
+          TikTok
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full rounded-none mt-20 bg-[#0d0b13] border-t border-[#c89b3c]/20 pt-12">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8 py-16 max-w-7xl mx-auto">
+    <div class="space-y-6">
+      <div class="flex items-center gap-3 text-xl font-serif text-[#f0bf5c] mb-4 font-headline uppercase tracking-widest">
+        <img src="assets/primary-icon-black-background.png" alt="The Magisterium seal" class="w-8 h-8 object-contain flex-shrink-0">
+        The Magisterium
+      </div>
+      <p class="text-sm text-[#d0c7a3]/70 font-serif leading-relaxed italic">Dedicated to making the fullness of the Catholic faith accessible to the digital generation.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-8">
+      <div class="flex flex-col gap-4">
+        <h4 class="text-xs font-sans uppercase tracking-[0.2em] text-[#c89b3c]">Quick Links</h4>
+        <a class="text-[#d0c7a3]/70 hover:text-[#f0bf5c] text-sm tracking-wide uppercase font-sans hover:translate-x-1 transition-transform duration-300" href="#pillars">Topics</a>
+        <a class="text-[#d0c7a3]/70 hover:text-[#f0bf5c] text-sm tracking-wide uppercase font-sans hover:translate-x-1 transition-transform duration-300" href="#about">About</a>
+        <a class="text-[#d0c7a3]/70 hover:text-[#f0bf5c] text-sm tracking-wide uppercase font-sans hover:translate-x-1 transition-transform duration-300" href="#latest">Videos</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h4 class="text-xs font-sans uppercase tracking-[0.2em] text-[#c89b3c]">Contact</h4>
+        <a class="text-[#d0c7a3]/70 hover:text-[#f0bf5c] text-sm tracking-wide uppercase font-sans hover:translate-x-1 transition-transform duration-300" href="mailto:magisteriumccc@gmail.com?subject=Email%20contact%20from%20The%20Magisterium%20CCC">Email Us</a>
+      </div>
+    </div>
+    <div class="space-y-6">
+      <h4 class="text-xs font-sans uppercase tracking-[0.2em] text-[#c89b3c]">Connect</h4>
+      <div class="flex gap-5 items-center">
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/@TheMagisterium" target="_blank" rel="noopener" aria-label="YouTube"
+           class="text-[#c89b3c] hover:text-primary transition-colors">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/magisteriumccc/" target="_blank" rel="noopener" aria-label="Instagram"
+           class="text-[#c89b3c] hover:text-primary transition-colors">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@themagisterium" target="_blank" rel="noopener" aria-label="TikTok"
+           class="text-[#c89b3c] hover:text-primary transition-colors">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="pt-4 border-t border-white/5">
+        <p class="text-[10px] text-[#d0c7a3]/40 uppercase tracking-widest leading-loose">
+          © MMXXIV The Magisterium. All Rights Reserved. Ad Majorem Dei Gloriam.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="feed.js"></script>
+<script>
+  // Carousel scroll buttons
+  function scrollFeed(direction) {
+    const feed = document.getElementById('video-feed');
+    if (feed) feed.scrollBy({ left: direction * 320, behavior: 'smooth' });
+  }
+
+  // Mobile menu toggle
+  function toggleMobileMenu() {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  }
+  function closeMobileMenu() {
+    document.getElementById('mobile-menu').classList.add('hidden');
+  }
+
+  // Follow dropdown toggle
+  function toggleFollowMenu(e) {
+    e.stopPropagation();
+    const menu = document.getElementById('follow-menu');
+    const chevron = document.getElementById('follow-chevron');
+    const isHidden = menu.classList.contains('hidden');
+    menu.classList.toggle('hidden', !isHidden);
+    chevron.style.transform = isHidden ? 'rotate(180deg)' : '';
+  }
+  // Close dropdown on outside click
+  document.addEventListener('click', function() {
+    const menu = document.getElementById('follow-menu');
+    const chevron = document.getElementById('follow-chevron');
+    if (menu) { menu.classList.add('hidden'); chevron.style.transform = ''; }
+  });
+</script>
+</body></html>
